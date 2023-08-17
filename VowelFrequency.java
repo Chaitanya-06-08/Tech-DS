@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class VowelFrequency {
     public static void vowelFreq(String s){
         int vowels=0;
-        for(int i=0;i<s.length();i++){
-            String lower=s.toLowerCase();
+        String lower=s.toLowerCase();
+        for(int i=0;i<lower.length();i++){
             char letter=lower.charAt(i);
             if(letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u')
                 vowels++;
