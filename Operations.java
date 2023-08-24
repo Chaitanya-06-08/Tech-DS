@@ -11,12 +11,14 @@ class Operations
 		System.out.println(operation);
 		System.out.println(a+b);
 		System.out.println(a-b);
+		System.out.println(a*b);
 		
 	}
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		operation("+",1,2);
 		operation("-",1,2);
+		operation("*",1,2);
 		// your code goes here
 	}
 }
